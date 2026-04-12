@@ -162,7 +162,6 @@ int main()
 
 若代码不符合格式要求，扣除当题分数的 **10%**。
 
-::: details
 技术上，高程所有的格式要求可以表述为这个 `clang-format` 配置：
 
 ```yaml
@@ -174,9 +173,7 @@ AllowShortFunctionsOnASingleLine: None
 IndentCaseLabels: true
 ```
 
-熟悉相关工具的同学可以自行配置。VS2026 内置了 `clang-format` 组件，后续习题课会讲解如何设置保存文件时自动按要求格式化的功能。
-
-:::
+VS2026 内置了 `clang-format` 组件，[此处](../reading/clang-format/) 介绍了 `Visual Studio` 如何设置保存文件时自动按要求格式化。
 
 ### 源程序字符集要求
 
